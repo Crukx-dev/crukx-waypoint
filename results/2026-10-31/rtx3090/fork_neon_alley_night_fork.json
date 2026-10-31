@@ -1,0 +1,13 @@
+{
+  "world": "neon_alley_night",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 1.32x stock on this GPU",
+    "linears": 120,
+    "attention": "crukx"
+  },
+  "save": "7ff99f8c0698d1379d9d02fa2eeb3d871422109cc730d6a9612069fc191343de",
+  "rewind_replay_exact": true,
+  "players_differ": true
+}

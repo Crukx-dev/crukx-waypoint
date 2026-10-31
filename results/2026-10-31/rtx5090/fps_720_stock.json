@@ -1,0 +1,55 @@
+{
+  "config": {
+    "quant": null,
+    "steps": 200,
+    "warmup": 20,
+    "seed": 73
+  },
+  "crukx": {},
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "torch": "2.11.0+cu130",
+  "frames_per_step": 4,
+  "warmup_s": 58.3,
+  "step_wall_ms": {
+    "p50": 65.314,
+    "p95": 66.145,
+    "p99": 66.645
+  },
+  "phase_ms": {
+    "prep": {
+      "p50": 0.595,
+      "p95": 0.794,
+      "p99": 1.017
+    },
+    "denoise": {
+      "p50": 50.137,
+      "p95": 50.762,
+      "p99": 51.022
+    },
+    "cache": {
+      "p50": 12.066,
+      "p95": 12.135,
+      "p99": 12.136
+    },
+    "decode": {
+      "p50": 2.374,
+      "p95": 2.376,
+      "p99": 2.378
+    }
+  },
+  "displayed_fps_p50": 61.2,
+  "throughput_fps_unsynced": 61.5,
+  "step_start_to_frame_ready_ms": {
+    "cache_first": {
+      "p50": 65.314,
+      "p95": 66.145,
+      "p99": 66.645
+    },
+    "decode_first": {
+      "p50": 53.151,
+      "p95": 53.901,
+      "p99": 54.312
+    }
+  },
+  "peak_allocated_bytes": 4911654912
+}

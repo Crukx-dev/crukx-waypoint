@@ -1,0 +1,47 @@
+{
+  "test": "isolated",
+  "quant": null,
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.51x stock on this GPU"
+  },
+  "golden": "gold/g720_mixed.pt",
+  "workload": "mixed",
+  "seed": 73,
+  "seed_image": null,
+  "steps": 64,
+  "skip": 16,
+  "summary": {
+    "latent_rel_err": {
+      "mean": 0.0075,
+      "p5": 0.0054,
+      "p50": 0.0067,
+      "p95": 0.0107
+    },
+    "pixel_psnr_db": {
+      "mean": 50.0052,
+      "p5": 48.2199,
+      "p50": 50.2177,
+      "p95": 51.065
+    },
+    "detail_cand": {
+      "mean": 3.0779,
+      "p5": 2.6782,
+      "p50": 3.1461,
+      "p95": 3.4428
+    },
+    "detail_golden": {
+      "mean": 3.0769,
+      "p5": 2.6792,
+      "p50": 3.144,
+      "p95": 3.4396
+    },
+    "latent_rel_err_vs_bf16": {
+      "mean": 0.0,
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "bitwise_equal_bf16_steps": "48/48"
+  }
+}

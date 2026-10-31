@@ -1,0 +1,27 @@
+{
+  "tag": "360_stock",
+  "crukx": {},
+  "gpu": "NVIDIA L40S",
+  "import_s": 2.5,
+  "load_ms": 1244.4,
+  "worlds": [
+    {
+      "world": "neon_alley_night",
+      "seed_ms": 134706.4,
+      "first_frame_ms": 228461.3,
+      "ready_to_first_frame_s": 367.0,
+      "steps": 240,
+      "step_ms_p50": 27.1,
+      "fps_p50_with_decode": 147.6
+    },
+    {
+      "world": "highland_castle_loch",
+      "seed_ms": 56.6,
+      "first_frame_ms": 25.9,
+      "ready_to_first_frame_s": null,
+      "steps": 240,
+      "step_ms_p50": 27.1,
+      "fps_p50_with_decode": 147.6
+    }
+  ]
+}

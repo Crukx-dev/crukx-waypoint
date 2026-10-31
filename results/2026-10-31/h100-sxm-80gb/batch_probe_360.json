@@ -1,0 +1,51 @@
+{
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "model": "model360",
+  "tokens_per_frame": 128,
+  "passes_per_step": 4,
+  "linear_shapes": {
+    "2048x2048": 48,
+    "2048x4096": 24,
+    "2048x8192": 24,
+    "8192x2048": 24
+  },
+  "step_ms_batch1": 15.91,
+  "gemm_share_batch1": 0.526,
+  "batches": [
+    {
+      "players": 1,
+      "gemm_ms_per_step": 8.37,
+      "gemm_ms_per_player": 8.37,
+      "est_step_ms_per_player": 15.91,
+      "est_throughput_x": 1.0
+    },
+    {
+      "players": 2,
+      "gemm_ms_per_step": 9.15,
+      "gemm_ms_per_player": 4.57,
+      "est_step_ms_per_player": 12.11,
+      "est_throughput_x": 1.31
+    },
+    {
+      "players": 4,
+      "gemm_ms_per_step": 11.41,
+      "gemm_ms_per_player": 2.85,
+      "est_step_ms_per_player": 10.39,
+      "est_throughput_x": 1.53
+    },
+    {
+      "players": 8,
+      "gemm_ms_per_step": 16.05,
+      "gemm_ms_per_player": 2.01,
+      "est_step_ms_per_player": 9.55,
+      "est_throughput_x": 1.67
+    },
+    {
+      "players": 16,
+      "gemm_ms_per_step": 28.04,
+      "gemm_ms_per_player": 1.75,
+      "est_step_ms_per_player": 9.29,
+      "est_throughput_x": 1.71
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "gpu_total_gb": 23.6,
+  "model": "model360",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 1.33x stock on this GPU",
+    "linears": 120,
+    "attention": "crukx"
+  },
+  "exact_interleaved_vs_alone": true,
+  "engine_gb": 2.87,
+  "gb_per_player": 0.541,
+  "scale": [
+    {
+      "players": 1,
+      "aggregate_fps": 103.2,
+      "fps_per_player": 103.2,
+      "gpu_allocated_gb": 2.9,
+      "gpu_peak_gb": 2.9
+    },
+    {
+      "players": 2,
+      "aggregate_fps": 95.7,
+      "fps_per_player": 47.9,
+      "gpu_allocated_gb": 3.9,
+      "gpu_peak_gb": 4.0
+    },
+    {
+      "players": 4,
+      "aggregate_fps": 95.6,
+      "fps_per_player": 23.9,
+      "gpu_allocated_gb": 5.0,
+      "gpu_peak_gb": 5.0
+    },
+    {
+      "players": 8,
+      "aggregate_fps": 95.5,
+      "fps_per_player": 11.9,
+      "gpu_allocated_gb": 7.2,
+      "gpu_peak_gb": 7.2
+    }
+  ]
+}

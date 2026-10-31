@@ -1,0 +1,2 @@
+{"n": 1, "completed": 1, "failed": false, "session_fps_min": 97.4, "session_fps_mean": 97.4, "aggregate_fps": 97.4, "gpu_mem_peak_gb": 8.5, "crukx": {"version": "0.1.0", "probe": "Crukx GEMM 1.34x stock on this GPU", "linears": 120, "attention": "crukx"}, "gpu": "NVIDIA GeForce RTX 3090"}
+{"n": 2, "completed": 2, "failed": false, "session_fps_min": 47.2, "session_fps_mean": 47.4, "aggregate_fps": 94.8, "gpu_mem_peak_gb": 16.7, "crukx": {"version": "0.1.0", "probe": "Crukx GEMM 1.31x stock on this GPU", "linears": 120, "attention": "crukx"}, "gpu": "NVIDIA GeForce RTX 3090"}

@@ -1,0 +1,58 @@
+{
+  "config": {
+    "quant": null,
+    "steps": 200,
+    "warmup": 20,
+    "seed": 73
+  },
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.82x stock on this GPU"
+  },
+  "gpu": "NVIDIA L40S",
+  "torch": "2.11.0+cu130",
+  "frames_per_step": 4,
+  "warmup_s": 27.3,
+  "step_wall_ms": {
+    "p50": 65.687,
+    "p95": 67.855,
+    "p99": 69.699
+  },
+  "phase_ms": {
+    "prep": {
+      "p50": 0.471,
+      "p95": 0.535,
+      "p99": 0.66
+    },
+    "denoise": {
+      "p50": 48.971,
+      "p95": 50.935,
+      "p99": 52.678
+    },
+    "cache": {
+      "p50": 12.659,
+      "p95": 12.903,
+      "p99": 12.97
+    },
+    "decode": {
+      "p50": 3.392,
+      "p95": 3.424,
+      "p99": 3.44
+    }
+  },
+  "displayed_fps_p50": 60.9,
+  "throughput_fps_unsynced": 57.3,
+  "step_start_to_frame_ready_ms": {
+    "cache_first": {
+      "p50": 65.687,
+      "p95": 67.855,
+      "p99": 69.699
+    },
+    "decode_first": {
+      "p50": 52.875,
+      "p95": 54.803,
+      "p99": 56.558
+    }
+  },
+  "peak_allocated_bytes": 4911654912
+}

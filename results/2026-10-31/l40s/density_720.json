@@ -1,0 +1,454 @@
+{
+  "gpu": "NVIDIA L40S",
+  "gpu_total_gb": 44.4,
+  "model_dir": "model720",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.83x stock on this GPU"
+  },
+  "fill_steps": 40,
+  "state_gb": 2.149,
+  "gpu_reserve_gb": 1.14,
+  "host_reserve_gb": 8.0,
+  "worlds_parked": {
+    "hot": 17,
+    "warm": 33,
+    "cold": 3
+  },
+  "disk_gb_per_world": 0.53,
+  "disk_capture_ms": [
+    18310.5,
+    21558.2,
+    20770.6
+  ],
+  "resumed": [
+    {
+      "id": 0,
+      "tier": "hot",
+      "load_ms": 0.0,
+      "restore_ms": 27.9,
+      "resume_ms": 27.9,
+      "exact": true
+    },
+    {
+      "id": 16,
+      "tier": "hot",
+      "load_ms": 0.0,
+      "restore_ms": 24.9,
+      "resume_ms": 24.9,
+      "exact": true
+    },
+    {
+      "id": 17,
+      "tier": "warm",
+      "load_ms": 0.0,
+      "restore_ms": 103.2,
+      "resume_ms": 103.2,
+      "exact": true
+    },
+    {
+      "id": 49,
+      "tier": "warm",
+      "load_ms": 0.0,
+      "restore_ms": 103.5,
+      "resume_ms": 103.5,
+      "exact": true
+    },
+    {
+      "id": 50,
+      "tier": "cold",
+      "load_ms": 12605.5,
+      "restore_ms": 734.6,
+      "resume_ms": 13340.1,
+      "exact": true
+    },
+    {
+      "id": 52,
+      "tier": "cold",
+      "load_ms": 13046.8,
+      "restore_ms": 382.3,
+      "resume_ms": 13429.1,
+      "exact": true
+    }
+  ],
+  "all_exact": true,
+  "worlds": [
+    {
+      "id": 0,
+      "seed": "abandoned_forest_cabin",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 0
+    },
+    {
+      "id": 1,
+      "seed": "alien_command_center",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 1
+    },
+    {
+      "id": 2,
+      "seed": "ancient_standing_stones",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 2
+    },
+    {
+      "id": 3,
+      "seed": "crystal_desert_blade",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 3
+    },
+    {
+      "id": 4,
+      "seed": "default",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 4
+    },
+    {
+      "id": 5,
+      "seed": "desert_outpost_hangar",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 5
+    },
+    {
+      "id": 6,
+      "seed": "enchanted_swamp_torch",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 6
+    },
+    {
+      "id": 7,
+      "seed": "frozen_crystal_cavern",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 7
+    },
+    {
+      "id": 8,
+      "seed": "frozen_valley_sniper",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 8
+    },
+    {
+      "id": 9,
+      "seed": "highland_castle_loch",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 9
+    },
+    {
+      "id": 10,
+      "seed": "mountain_ruins_sword",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 10
+    },
+    {
+      "id": 11,
+      "seed": "neon_alley_night",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 11
+    },
+    {
+      "id": 12,
+      "seed": "red_canyon_spear",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 12
+    },
+    {
+      "id": 13,
+      "seed": "shattered_cockpit_nebula",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 13
+    },
+    {
+      "id": 14,
+      "seed": "shipwreck_shore_revolver",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 14
+    },
+    {
+      "id": 15,
+      "seed": "snowy_forest_tracks",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 15
+    },
+    {
+      "id": 16,
+      "seed": "stormy_countryside_rifle",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 16
+    },
+    {
+      "id": 17,
+      "seed": "sunken_city_depths",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 0
+    },
+    {
+      "id": 18,
+      "seed": "abandoned_forest_cabin",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 1
+    },
+    {
+      "id": 19,
+      "seed": "alien_command_center",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 2
+    },
+    {
+      "id": 20,
+      "seed": "ancient_standing_stones",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 3
+    },
+    {
+      "id": 21,
+      "seed": "crystal_desert_blade",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 4
+    },
+    {
+      "id": 22,
+      "seed": "default",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 5
+    },
+    {
+      "id": 23,
+      "seed": "desert_outpost_hangar",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 6
+    },
+    {
+      "id": 24,
+      "seed": "enchanted_swamp_torch",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 7
+    },
+    {
+      "id": 25,
+      "seed": "frozen_crystal_cavern",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 8
+    },
+    {
+      "id": 26,
+      "seed": "frozen_valley_sniper",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 9
+    },
+    {
+      "id": 27,
+      "seed": "highland_castle_loch",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 10
+    },
+    {
+      "id": 28,
+      "seed": "mountain_ruins_sword",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 11
+    },
+    {
+      "id": 29,
+      "seed": "neon_alley_night",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 12
+    },
+    {
+      "id": 30,
+      "seed": "red_canyon_spear",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 13
+    },
+    {
+      "id": 31,
+      "seed": "shattered_cockpit_nebula",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 14
+    },
+    {
+      "id": 32,
+      "seed": "shipwreck_shore_revolver",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 15
+    },
+    {
+      "id": 33,
+      "seed": "snowy_forest_tracks",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 16
+    },
+    {
+      "id": 34,
+      "seed": "stormy_countryside_rifle",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 17
+    },
+    {
+      "id": 35,
+      "seed": "sunken_city_depths",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 18
+    },
+    {
+      "id": 36,
+      "seed": "abandoned_forest_cabin",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 19
+    },
+    {
+      "id": 37,
+      "seed": "alien_command_center",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 20
+    },
+    {
+      "id": 38,
+      "seed": "ancient_standing_stones",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 21
+    },
+    {
+      "id": 39,
+      "seed": "crystal_desert_blade",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 22
+    },
+    {
+      "id": 40,
+      "seed": "default",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 23
+    },
+    {
+      "id": 41,
+      "seed": "desert_outpost_hangar",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 24
+    },
+    {
+      "id": 42,
+      "seed": "enchanted_swamp_torch",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 25
+    },
+    {
+      "id": 43,
+      "seed": "frozen_crystal_cavern",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 26
+    },
+    {
+      "id": 44,
+      "seed": "frozen_valley_sniper",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 27
+    },
+    {
+      "id": 45,
+      "seed": "highland_castle_loch",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 28
+    },
+    {
+      "id": 46,
+      "seed": "mountain_ruins_sword",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 29
+    },
+    {
+      "id": 47,
+      "seed": "neon_alley_night",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 30
+    },
+    {
+      "id": 48,
+      "seed": "red_canyon_spear",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 31
+    },
+    {
+      "id": 49,
+      "seed": "shattered_cockpit_nebula",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 32
+    },
+    {
+      "id": 50,
+      "seed": "shipwreck_shore_revolver",
+      "state_bytes": 2307716590,
+      "snapshot": "aaf961740a54ef63a1f2a872c651488edc548a352ac88dd9edb9889dbbf73198",
+      "capture_ms": 18310.5,
+      "tier": "cold",
+      "disk_bytes": 568586926
+    },
+    {
+      "id": 51,
+      "seed": "snowy_forest_tracks",
+      "state_bytes": 2307716590,
+      "snapshot": "78ec9cd5064bdbf2a192ba97cc5346e60815ecc76170b64a0e4a01d1e93a5cc7",
+      "capture_ms": 21558.2,
+      "tier": "cold",
+      "disk_bytes": 569764091
+    },
+    {
+      "id": 52,
+      "seed": "stormy_countryside_rifle",
+      "state_bytes": 2307716590,
+      "snapshot": "773676bd6d4d91cd372fca08e1b723fe6678fbd9018c5ddb2935096347b15d4b",
+      "capture_ms": 20770.6,
+      "tier": "cold",
+      "disk_bytes": 568917369
+    }
+  ]
+}

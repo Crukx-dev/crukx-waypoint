@@ -1,0 +1,19 @@
+{
+  "order": "engine",
+  "quant": null,
+  "crukx": {},
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "steps": 300,
+  "key_to_pixels_ms": {
+    "p50": 131.4,
+    "p95": 170.46,
+    "p99": 176.39
+  },
+  "step_period_ms": {
+    "p50": 92.9,
+    "p95": 93.03,
+    "p99": 93.3
+  },
+  "video_fps": 43.1,
+  "identical_to_engine_order": null
+}

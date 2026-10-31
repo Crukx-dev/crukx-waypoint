@@ -1,0 +1,19 @@
+{
+  "order": "engine",
+  "quant": null,
+  "crukx": {},
+  "gpu": "NVIDIA L40S",
+  "steps": 300,
+  "key_to_pixels_ms": {
+    "p50": 103.84,
+    "p95": 133.56,
+    "p99": 137.66
+  },
+  "step_period_ms": {
+    "p50": 73.36,
+    "p95": 74.76,
+    "p99": 75.09
+  },
+  "video_fps": 54.5,
+  "identical_to_engine_order": null
+}

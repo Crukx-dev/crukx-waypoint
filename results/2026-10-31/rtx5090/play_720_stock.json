@@ -1,0 +1,27 @@
+{
+  "tag": "720_stock",
+  "crukx": {},
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "import_s": 4.3,
+  "load_ms": 2527.1,
+  "worlds": [
+    {
+      "world": "neon_alley_night",
+      "seed_ms": 139771.4,
+      "first_frame_ms": 298681.3,
+      "ready_to_first_frame_s": 445.4,
+      "steps": 240,
+      "step_ms_p50": 65.7,
+      "fps_p50_with_decode": 60.9
+    },
+    {
+      "world": "highland_castle_loch",
+      "seed_ms": 75.0,
+      "first_frame_ms": 44.7,
+      "ready_to_first_frame_s": null,
+      "steps": 240,
+      "step_ms_p50": 65.6,
+      "fps_p50_with_decode": 61.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "tag": "720_auto",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.64x stock on this GPU"
+  },
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "import_s": 4.4,
+  "load_ms": 14070.6,
+  "worlds": [
+    {
+      "world": "neon_alley_night",
+      "seed_ms": 36890.2,
+      "first_frame_ms": 63092.0,
+      "ready_to_first_frame_s": 118.6,
+      "steps": 240,
+      "step_ms_p50": 84.9,
+      "fps_p50_with_decode": 47.1
+    },
+    {
+      "world": "highland_castle_loch",
+      "seed_ms": 82.5,
+      "first_frame_ms": 56.2,
+      "ready_to_first_frame_s": null,
+      "steps": 240,
+      "step_ms_p50": 84.9,
+      "fps_p50_with_decode": 47.1
+    }
+  ]
+}

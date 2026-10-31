@@ -1,0 +1,22 @@
+{
+  "order": "engine",
+  "quant": null,
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.50x stock on this GPU"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "steps": 300,
+  "key_to_pixels_ms": {
+    "p50": 52.43,
+    "p95": 71.32,
+    "p99": 73.35
+  },
+  "step_period_ms": {
+    "p50": 41.09,
+    "p95": 41.24,
+    "p99": 41.33
+  },
+  "video_fps": 97.3,
+  "identical_to_engine_order": null
+}

@@ -1,0 +1,55 @@
+{
+  "config": {
+    "quant": null,
+    "steps": 200,
+    "warmup": 20,
+    "seed": 73
+  },
+  "crukx": {},
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "torch": "2.11.0+cu130",
+  "frames_per_step": 4,
+  "warmup_s": 51.2,
+  "step_wall_ms": {
+    "p50": 84.234,
+    "p95": 85.036,
+    "p99": 85.196
+  },
+  "phase_ms": {
+    "prep": {
+      "p50": 0.922,
+      "p95": 1.059,
+      "p99": 1.255
+    },
+    "denoise": {
+      "p50": 63.692,
+      "p95": 64.27,
+      "p99": 64.433
+    },
+    "cache": {
+      "p50": 15.309,
+      "p95": 15.41,
+      "p99": 15.569
+    },
+    "decode": {
+      "p50": 4.097,
+      "p95": 4.115,
+      "p99": 4.245
+    }
+  },
+  "displayed_fps_p50": 47.5,
+  "throughput_fps_unsynced": 48.3,
+  "step_start_to_frame_ready_ms": {
+    "cache_first": {
+      "p50": 84.234,
+      "p95": 85.036,
+      "p99": 85.196
+    },
+    "decode_first": {
+      "p50": 68.717,
+      "p95": 69.364,
+      "p99": 69.534
+    }
+  },
+  "peak_allocated_bytes": 4911654912
+}

@@ -1,0 +1,27 @@
+{
+  "tag": "360_stock",
+  "crukx": {},
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "import_s": 1.5,
+  "load_ms": 1156.5,
+  "worlds": [
+    {
+      "world": "neon_alley_night",
+      "seed_ms": 68640.1,
+      "first_frame_ms": 94633.1,
+      "ready_to_first_frame_s": 165.9,
+      "steps": 240,
+      "step_ms_p50": 41.3,
+      "fps_p50_with_decode": 96.9
+    },
+    {
+      "world": "highland_castle_loch",
+      "seed_ms": 50.8,
+      "first_frame_ms": 36.3,
+      "ready_to_first_frame_s": null,
+      "steps": 240,
+      "step_ms_p50": 41.6,
+      "fps_p50_with_decode": 96.2
+    }
+  ]
+}

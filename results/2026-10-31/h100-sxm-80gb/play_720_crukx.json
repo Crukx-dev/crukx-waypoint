@@ -1,0 +1,30 @@
+{
+  "tag": "720_auto",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.51x stock on this GPU"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "import_s": 3.2,
+  "load_ms": 12200.4,
+  "worlds": [
+    {
+      "world": "neon_alley_night",
+      "seed_ms": 42517.7,
+      "first_frame_ms": 44309.0,
+      "ready_to_first_frame_s": 102.3,
+      "steps": 240,
+      "step_ms_p50": 32.9,
+      "fps_p50_with_decode": 121.6
+    },
+    {
+      "world": "highland_castle_loch",
+      "seed_ms": 70.8,
+      "first_frame_ms": 25.1,
+      "ready_to_first_frame_s": null,
+      "steps": 240,
+      "step_ms_p50": 32.7,
+      "fps_p50_with_decode": 122.3
+    }
+  ]
+}

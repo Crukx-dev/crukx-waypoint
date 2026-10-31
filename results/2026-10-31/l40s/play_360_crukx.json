@@ -1,0 +1,30 @@
+{
+  "tag": "360_auto",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.84x stock on this GPU"
+  },
+  "gpu": "NVIDIA L40S",
+  "import_s": 2.5,
+  "load_ms": 2215.9,
+  "worlds": [
+    {
+      "world": "neon_alley_night",
+      "seed_ms": 19259.6,
+      "first_frame_ms": 31343.3,
+      "ready_to_first_frame_s": 55.3,
+      "steps": 240,
+      "step_ms_p50": 27.1,
+      "fps_p50_with_decode": 147.6
+    },
+    {
+      "world": "highland_castle_loch",
+      "seed_ms": 54.2,
+      "first_frame_ms": 25.5,
+      "ready_to_first_frame_s": null,
+      "steps": 240,
+      "step_ms_p50": 27.1,
+      "fps_p50_with_decode": 147.6
+    }
+  ]
+}

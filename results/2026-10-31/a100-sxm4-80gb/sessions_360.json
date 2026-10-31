@@ -1,0 +1,70 @@
+{
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_total_gb": 79.3,
+  "model": "model360",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.64x stock on this GPU"
+  },
+  "exact_interleaved_vs_alone": true,
+  "engine_gb": 2.89,
+  "gb_per_player": 0.538,
+  "scale": [
+    {
+      "players": 1,
+      "aggregate_fps": 142.4,
+      "fps_per_player": 142.4,
+      "gpu_allocated_gb": 2.9,
+      "gpu_peak_gb": 2.9
+    },
+    {
+      "players": 2,
+      "aggregate_fps": 129.7,
+      "fps_per_player": 64.9,
+      "gpu_allocated_gb": 3.9,
+      "gpu_peak_gb": 4.0
+    },
+    {
+      "players": 4,
+      "aggregate_fps": 130.3,
+      "fps_per_player": 32.6,
+      "gpu_allocated_gb": 5.0,
+      "gpu_peak_gb": 5.0
+    },
+    {
+      "players": 8,
+      "aggregate_fps": 130.2,
+      "fps_per_player": 16.3,
+      "gpu_allocated_gb": 7.2,
+      "gpu_peak_gb": 7.2
+    },
+    {
+      "players": 12,
+      "aggregate_fps": 129.6,
+      "fps_per_player": 10.8,
+      "gpu_allocated_gb": 9.3,
+      "gpu_peak_gb": 9.3
+    },
+    {
+      "players": 16,
+      "aggregate_fps": 129.0,
+      "fps_per_player": 8.1,
+      "gpu_allocated_gb": 11.5,
+      "gpu_peak_gb": 11.5
+    },
+    {
+      "players": 24,
+      "aggregate_fps": 129.1,
+      "fps_per_player": 5.4,
+      "gpu_allocated_gb": 15.8,
+      "gpu_peak_gb": 15.8
+    },
+    {
+      "players": 32,
+      "aggregate_fps": 126.9,
+      "fps_per_player": 4.0,
+      "gpu_allocated_gb": 20.1,
+      "gpu_peak_gb": 20.1
+    }
+  ]
+}

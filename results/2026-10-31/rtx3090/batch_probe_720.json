@@ -1,0 +1,51 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "model": "model720",
+  "tokens_per_frame": 512,
+  "passes_per_step": 4,
+  "linear_shapes": {
+    "2048x2048": 48,
+    "2048x4096": 24,
+    "2048x8192": 24,
+    "8192x2048": 24
+  },
+  "step_ms_batch1": 174.83,
+  "gemm_share_batch1": 0.471,
+  "batches": [
+    {
+      "players": 1,
+      "gemm_ms_per_step": 82.41,
+      "gemm_ms_per_player": 82.41,
+      "est_step_ms_per_player": 174.83,
+      "est_throughput_x": 1.0
+    },
+    {
+      "players": 2,
+      "gemm_ms_per_step": 153.78,
+      "gemm_ms_per_player": 76.89,
+      "est_step_ms_per_player": 169.31,
+      "est_throughput_x": 1.03
+    },
+    {
+      "players": 4,
+      "gemm_ms_per_step": 305.26,
+      "gemm_ms_per_player": 76.31,
+      "est_step_ms_per_player": 168.73,
+      "est_throughput_x": 1.04
+    },
+    {
+      "players": 8,
+      "gemm_ms_per_step": 592.98,
+      "gemm_ms_per_player": 74.12,
+      "est_step_ms_per_player": 166.54,
+      "est_throughput_x": 1.05
+    },
+    {
+      "players": 16,
+      "gemm_ms_per_step": 1091.49,
+      "gemm_ms_per_player": 68.22,
+      "est_step_ms_per_player": 160.64,
+      "est_throughput_x": 1.09
+    }
+  ]
+}

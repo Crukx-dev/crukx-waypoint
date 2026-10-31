@@ -1,0 +1,49 @@
+{
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_total_gb": 79.3,
+  "model": "model720",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.64x stock on this GPU"
+  },
+  "exact_interleaved_vs_alone": true,
+  "engine_gb": 4.47,
+  "gb_per_player": 2.152,
+  "scale": [
+    {
+      "players": 1,
+      "aggregate_fps": 59.4,
+      "fps_per_player": 59.4,
+      "gpu_allocated_gb": 4.5,
+      "gpu_peak_gb": 4.6
+    },
+    {
+      "players": 2,
+      "aggregate_fps": 51.2,
+      "fps_per_player": 25.6,
+      "gpu_allocated_gb": 8.8,
+      "gpu_peak_gb": 8.9
+    },
+    {
+      "players": 4,
+      "aggregate_fps": 51.2,
+      "fps_per_player": 12.8,
+      "gpu_allocated_gb": 13.1,
+      "gpu_peak_gb": 13.2
+    },
+    {
+      "players": 8,
+      "aggregate_fps": 51.1,
+      "fps_per_player": 6.4,
+      "gpu_allocated_gb": 21.7,
+      "gpu_peak_gb": 21.8
+    },
+    {
+      "players": 12,
+      "aggregate_fps": 49.8,
+      "fps_per_player": 4.1,
+      "gpu_allocated_gb": 30.3,
+      "gpu_peak_gb": 30.4
+    }
+  ]
+}

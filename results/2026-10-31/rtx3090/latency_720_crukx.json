@@ -1,0 +1,24 @@
+{
+  "order": "engine",
+  "quant": null,
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 1.32x stock on this GPU",
+    "linears": 120,
+    "attention": "crukx"
+  },
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "steps": 300,
+  "key_to_pixels_ms": {
+    "p50": 242.69,
+    "p95": 316.72,
+    "p99": 326.84
+  },
+  "step_period_ms": {
+    "p50": 168.09,
+    "p95": 169.71,
+    "p99": 170.5
+  },
+  "video_fps": 23.8,
+  "identical_to_engine_order": null
+}

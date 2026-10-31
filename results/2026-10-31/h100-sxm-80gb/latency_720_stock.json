@@ -1,0 +1,19 @@
+{
+  "order": "engine",
+  "quant": null,
+  "crukx": {},
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "steps": 300,
+  "key_to_pixels_ms": {
+    "p50": 52.2,
+    "p95": 70.69,
+    "p99": 73.53
+  },
+  "step_period_ms": {
+    "p50": 41.09,
+    "p95": 43.0,
+    "p99": 46.02
+  },
+  "video_fps": 97.3,
+  "identical_to_engine_order": null
+}

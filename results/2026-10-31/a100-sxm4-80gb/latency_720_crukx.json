@@ -1,0 +1,22 @@
+{
+  "order": "engine",
+  "quant": null,
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.66x stock on this GPU"
+  },
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "steps": 300,
+  "key_to_pixels_ms": {
+    "p50": 134.92,
+    "p95": 174.24,
+    "p99": 177.74
+  },
+  "step_period_ms": {
+    "p50": 93.65,
+    "p95": 93.82,
+    "p99": 94.31
+  },
+  "video_fps": 42.7,
+  "identical_to_engine_order": null
+}

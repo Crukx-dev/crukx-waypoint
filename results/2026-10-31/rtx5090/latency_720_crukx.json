@@ -1,0 +1,24 @@
+{
+  "order": "engine",
+  "quant": null,
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 1.19x stock on this GPU",
+    "linears": 120,
+    "attention": "crukx"
+  },
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "steps": 300,
+  "key_to_pixels_ms": {
+    "p50": 93.71,
+    "p95": 124.3,
+    "p99": 126.92
+  },
+  "step_period_ms": {
+    "p50": 69.84,
+    "p95": 71.14,
+    "p99": 71.75
+  },
+  "video_fps": 57.3,
+  "identical_to_engine_order": null
+}

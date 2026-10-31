@@ -1,0 +1,19 @@
+{
+  "order": "engine",
+  "quant": null,
+  "crukx": {},
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "steps": 300,
+  "key_to_pixels_ms": {
+    "p50": 289.36,
+    "p95": 378.73,
+    "p99": 392.02
+  },
+  "step_period_ms": {
+    "p50": 200.43,
+    "p95": 201.84,
+    "p99": 202.15
+  },
+  "video_fps": 20.0,
+  "identical_to_engine_order": null
+}

@@ -1,0 +1,70 @@
+{
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "gpu_total_gb": 79.2,
+  "model": "model720",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.51x stock on this GPU"
+  },
+  "exact_interleaved_vs_alone": true,
+  "engine_gb": 4.47,
+  "gb_per_player": 2.151,
+  "scale": [
+    {
+      "players": 1,
+      "aggregate_fps": 142.7,
+      "fps_per_player": 142.7,
+      "gpu_allocated_gb": 4.5,
+      "gpu_peak_gb": 4.6
+    },
+    {
+      "players": 2,
+      "aggregate_fps": 121.9,
+      "fps_per_player": 60.9,
+      "gpu_allocated_gb": 8.8,
+      "gpu_peak_gb": 8.9
+    },
+    {
+      "players": 4,
+      "aggregate_fps": 121.8,
+      "fps_per_player": 30.4,
+      "gpu_allocated_gb": 13.1,
+      "gpu_peak_gb": 13.2
+    },
+    {
+      "players": 8,
+      "aggregate_fps": 121.9,
+      "fps_per_player": 15.2,
+      "gpu_allocated_gb": 21.7,
+      "gpu_peak_gb": 21.8
+    },
+    {
+      "players": 12,
+      "aggregate_fps": 119.6,
+      "fps_per_player": 10.0,
+      "gpu_allocated_gb": 30.3,
+      "gpu_peak_gb": 30.4
+    },
+    {
+      "players": 16,
+      "aggregate_fps": 118.6,
+      "fps_per_player": 7.4,
+      "gpu_allocated_gb": 38.9,
+      "gpu_peak_gb": 39.0
+    },
+    {
+      "players": 24,
+      "aggregate_fps": 119.4,
+      "fps_per_player": 5.0,
+      "gpu_allocated_gb": 56.1,
+      "gpu_peak_gb": 56.2
+    },
+    {
+      "players": 32,
+      "aggregate_fps": 118.4,
+      "fps_per_player": 3.7,
+      "gpu_allocated_gb": 73.3,
+      "gpu_peak_gb": 73.4
+    }
+  ]
+}

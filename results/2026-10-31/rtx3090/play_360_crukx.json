@@ -1,0 +1,32 @@
+{
+  "tag": "360_auto",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 1.33x stock on this GPU",
+    "linears": 120,
+    "attention": "crukx"
+  },
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "import_s": 1.5,
+  "load_ms": 2233.8,
+  "worlds": [
+    {
+      "world": "neon_alley_night",
+      "seed_ms": 60144.6,
+      "first_frame_ms": 117662.8,
+      "ready_to_first_frame_s": 181.6,
+      "steps": 240,
+      "step_ms_p50": 40.3,
+      "fps_p50_with_decode": 99.3
+    },
+    {
+      "world": "highland_castle_loch",
+      "seed_ms": 50.8,
+      "first_frame_ms": 34.2,
+      "ready_to_first_frame_s": null,
+      "steps": 240,
+      "step_ms_p50": 40.6,
+      "fps_p50_with_decode": 98.5
+    }
+  ]
+}

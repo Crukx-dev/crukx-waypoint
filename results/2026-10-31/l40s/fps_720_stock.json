@@ -1,0 +1,55 @@
+{
+  "config": {
+    "quant": null,
+    "steps": 200,
+    "warmup": 20,
+    "seed": 73
+  },
+  "crukx": {},
+  "gpu": "NVIDIA L40S",
+  "torch": "2.11.0+cu130",
+  "frames_per_step": 4,
+  "warmup_s": 40.3,
+  "step_wall_ms": {
+    "p50": 66.072,
+    "p95": 67.496,
+    "p99": 67.966
+  },
+  "phase_ms": {
+    "prep": {
+      "p50": 0.459,
+      "p95": 0.496,
+      "p99": 0.567
+    },
+    "denoise": {
+      "p50": 49.419,
+      "p95": 50.723,
+      "p99": 51.244
+    },
+    "cache": {
+      "p50": 12.654,
+      "p95": 12.819,
+      "p99": 12.83
+    },
+    "decode": {
+      "p50": 3.389,
+      "p95": 3.416,
+      "p99": 3.424
+    }
+  },
+  "displayed_fps_p50": 60.5,
+  "throughput_fps_unsynced": 57.8,
+  "step_start_to_frame_ready_ms": {
+    "cache_first": {
+      "p50": 66.072,
+      "p95": 67.496,
+      "p99": 67.966
+    },
+    "decode_first": {
+      "p50": 53.275,
+      "p95": 54.606,
+      "p99": 55.084
+    }
+  },
+  "peak_allocated_bytes": 4911654912
+}

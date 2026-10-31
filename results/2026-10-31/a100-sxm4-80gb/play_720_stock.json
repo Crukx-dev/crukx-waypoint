@@ -1,0 +1,27 @@
+{
+  "tag": "720_stock",
+  "crukx": {},
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "import_s": 4.4,
+  "load_ms": 2545.3,
+  "worlds": [
+    {
+      "world": "neon_alley_night",
+      "seed_ms": 198557.1,
+      "first_frame_ms": 342169.7,
+      "ready_to_first_frame_s": 547.8,
+      "steps": 240,
+      "step_ms_p50": 85.5,
+      "fps_p50_with_decode": 46.8
+    },
+    {
+      "world": "highland_castle_loch",
+      "seed_ms": 171.9,
+      "first_frame_ms": 56.8,
+      "ready_to_first_frame_s": null,
+      "steps": 240,
+      "step_ms_p50": 85.2,
+      "fps_p50_with_decode": 46.9
+    }
+  ]
+}

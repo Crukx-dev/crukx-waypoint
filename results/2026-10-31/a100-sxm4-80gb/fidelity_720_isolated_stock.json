@@ -1,0 +1,44 @@
+{
+  "test": "isolated",
+  "quant": null,
+  "crukx": {},
+  "golden": "gold/g720_mixed.pt",
+  "workload": "mixed",
+  "seed": 73,
+  "seed_image": null,
+  "steps": 64,
+  "skip": 16,
+  "summary": {
+    "latent_rel_err": {
+      "mean": 0.0077,
+      "p5": 0.0056,
+      "p50": 0.0069,
+      "p95": 0.012
+    },
+    "pixel_psnr_db": {
+      "mean": 49.9303,
+      "p5": 47.7357,
+      "p50": 50.1607,
+      "p95": 51.0248
+    },
+    "detail_cand": {
+      "mean": 3.0782,
+      "p5": 2.6782,
+      "p50": 3.1462,
+      "p95": 3.4432
+    },
+    "detail_golden": {
+      "mean": 3.0769,
+      "p5": 2.6792,
+      "p50": 3.1439,
+      "p95": 3.4393
+    },
+    "latent_rel_err_vs_bf16": {
+      "mean": 0.0,
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "bitwise_equal_bf16_steps": "48/48"
+  }
+}

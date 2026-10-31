@@ -1,0 +1,225 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "gpu_total_gb": 23.6,
+  "model_dir": "model720",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 1.32x stock on this GPU",
+    "linears": 120,
+    "attention": "crukx"
+  },
+  "fill_steps": 40,
+  "state_gb": 2.149,
+  "gpu_reserve_gb": 1.11,
+  "host_reserve_gb": 8.0,
+  "worlds_parked": {
+    "hot": 7,
+    "warm": 10,
+    "cold": 3
+  },
+  "disk_gb_per_world": 0.531,
+  "disk_capture_ms": [
+    5511.7,
+    5926.3,
+    5787.5
+  ],
+  "resumed": [
+    {
+      "id": 0,
+      "tier": "hot",
+      "load_ms": 0.0,
+      "restore_ms": 31.7,
+      "resume_ms": 31.7,
+      "exact": true
+    },
+    {
+      "id": 6,
+      "tier": "hot",
+      "load_ms": 0.0,
+      "restore_ms": 9.3,
+      "resume_ms": 9.3,
+      "exact": true
+    },
+    {
+      "id": 7,
+      "tier": "warm",
+      "load_ms": 0.0,
+      "restore_ms": 89.1,
+      "resume_ms": 89.1,
+      "exact": true
+    },
+    {
+      "id": 16,
+      "tier": "warm",
+      "load_ms": 0.0,
+      "restore_ms": 88.9,
+      "resume_ms": 88.9,
+      "exact": true
+    },
+    {
+      "id": 17,
+      "tier": "cold",
+      "load_ms": 6892.5,
+      "restore_ms": 148.6,
+      "resume_ms": 7041.1,
+      "exact": true
+    },
+    {
+      "id": 19,
+      "tier": "cold",
+      "load_ms": 7540.3,
+      "restore_ms": 173.7,
+      "resume_ms": 7714.0,
+      "exact": true
+    }
+  ],
+  "all_exact": true,
+  "worlds": [
+    {
+      "id": 0,
+      "seed": "abandoned_forest_cabin",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 0
+    },
+    {
+      "id": 1,
+      "seed": "alien_command_center",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 1
+    },
+    {
+      "id": 2,
+      "seed": "ancient_standing_stones",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 2
+    },
+    {
+      "id": 3,
+      "seed": "crystal_desert_blade",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 3
+    },
+    {
+      "id": 4,
+      "seed": "default",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 4
+    },
+    {
+      "id": 5,
+      "seed": "desert_outpost_hangar",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 5
+    },
+    {
+      "id": 6,
+      "seed": "enchanted_swamp_torch",
+      "state_bytes": 2307716590,
+      "tier": "hot",
+      "slot": 6
+    },
+    {
+      "id": 7,
+      "seed": "frozen_crystal_cavern",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 0
+    },
+    {
+      "id": 8,
+      "seed": "frozen_valley_sniper",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 1
+    },
+    {
+      "id": 9,
+      "seed": "highland_castle_loch",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 2
+    },
+    {
+      "id": 10,
+      "seed": "mountain_ruins_sword",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 3
+    },
+    {
+      "id": 11,
+      "seed": "neon_alley_night",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 4
+    },
+    {
+      "id": 12,
+      "seed": "red_canyon_spear",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 5
+    },
+    {
+      "id": 13,
+      "seed": "shattered_cockpit_nebula",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 6
+    },
+    {
+      "id": 14,
+      "seed": "shipwreck_shore_revolver",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 7
+    },
+    {
+      "id": 15,
+      "seed": "snowy_forest_tracks",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 8
+    },
+    {
+      "id": 16,
+      "seed": "stormy_countryside_rifle",
+      "state_bytes": 2307716590,
+      "tier": "warm",
+      "slot": 9
+    },
+    {
+      "id": 17,
+      "seed": "sunken_city_depths",
+      "state_bytes": 2307716590,
+      "snapshot": "2c969a5c3d94031eed1645840d5cc89e11e2643e62063d37b4418c268e705198",
+      "capture_ms": 5511.7,
+      "tier": "cold",
+      "disk_bytes": 569395897
+    },
+    {
+      "id": 18,
+      "seed": "abandoned_forest_cabin",
+      "state_bytes": 2307716590,
+      "snapshot": "c87ef5fdd491bffbe285ba003492bc27b1d934b0cbf22874b8b7ba513f953edf",
+      "capture_ms": 5926.3,
+      "tier": "cold",
+      "disk_bytes": 569563543
+    },
+    {
+      "id": 19,
+      "seed": "alien_command_center",
+      "state_bytes": 2307716590,
+      "snapshot": "24021d82eb1cc2fc722fa6f9d3e61b86dab53ea874154961405cb4800d8659a4",
+      "capture_ms": 5787.5,
+      "tier": "cold",
+      "disk_bytes": 570294193
+    }
+  ]
+}

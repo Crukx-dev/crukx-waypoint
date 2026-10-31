@@ -1,0 +1,27 @@
+{
+  "tag": "720_stock",
+  "crukx": {},
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "import_s": 3.2,
+  "load_ms": 4511.2,
+  "worlds": [
+    {
+      "world": "neon_alley_night",
+      "seed_ms": 178859.9,
+      "first_frame_ms": 257160.5,
+      "ready_to_first_frame_s": 443.8,
+      "steps": 240,
+      "step_ms_p50": 32.5,
+      "fps_p50_with_decode": 123.1
+    },
+    {
+      "world": "highland_castle_loch",
+      "seed_ms": 81.5,
+      "first_frame_ms": 24.3,
+      "ready_to_first_frame_s": null,
+      "steps": 240,
+      "step_ms_p50": 32.5,
+      "fps_p50_with_decode": 123.1
+    }
+  ]
+}

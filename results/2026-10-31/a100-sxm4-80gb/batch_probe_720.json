@@ -1,0 +1,51 @@
+{
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "model": "model720",
+  "tokens_per_frame": 512,
+  "passes_per_step": 4,
+  "linear_shapes": {
+    "2048x2048": 48,
+    "2048x4096": 24,
+    "2048x8192": 24,
+    "8192x2048": 24
+  },
+  "step_ms_batch1": 76.18,
+  "gemm_share_batch1": 0.43,
+  "batches": [
+    {
+      "players": 1,
+      "gemm_ms_per_step": 32.77,
+      "gemm_ms_per_player": 32.77,
+      "est_step_ms_per_player": 76.18,
+      "est_throughput_x": 1.0
+    },
+    {
+      "players": 2,
+      "gemm_ms_per_step": 54.22,
+      "gemm_ms_per_player": 27.11,
+      "est_step_ms_per_player": 70.52,
+      "est_throughput_x": 1.08
+    },
+    {
+      "players": 4,
+      "gemm_ms_per_step": 96.18,
+      "gemm_ms_per_player": 24.05,
+      "est_step_ms_per_player": 67.46,
+      "est_throughput_x": 1.13
+    },
+    {
+      "players": 8,
+      "gemm_ms_per_step": 168.69,
+      "gemm_ms_per_player": 21.09,
+      "est_step_ms_per_player": 64.5,
+      "est_throughput_x": 1.18
+    },
+    {
+      "players": 16,
+      "gemm_ms_per_step": 323.52,
+      "gemm_ms_per_player": 20.22,
+      "est_step_ms_per_player": 63.63,
+      "est_throughput_x": 1.2
+    }
+  ]
+}

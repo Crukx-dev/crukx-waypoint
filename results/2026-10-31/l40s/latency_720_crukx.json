@@ -1,0 +1,22 @@
+{
+  "order": "engine",
+  "quant": null,
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.82x stock on this GPU"
+  },
+  "gpu": "NVIDIA L40S",
+  "steps": 300,
+  "key_to_pixels_ms": {
+    "p50": 105.92,
+    "p95": 136.9,
+    "p99": 139.35
+  },
+  "step_period_ms": {
+    "p50": 73.57,
+    "p95": 74.78,
+    "p99": 75.13
+  },
+  "video_fps": 54.4,
+  "identical_to_engine_order": null
+}

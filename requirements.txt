@@ -1,0 +1,5 @@
+world_engine @ git+https://github.com/Overworldai/world_engine@68b316390d576dd9f671f552803526bbf8eb2ed5
+numpy
+pillow
+pyyaml
+huggingface_hub

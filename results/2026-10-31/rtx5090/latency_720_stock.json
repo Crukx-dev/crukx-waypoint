@@ -1,0 +1,19 @@
+{
+  "order": "engine",
+  "quant": null,
+  "crukx": {},
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "steps": 300,
+  "key_to_pixels_ms": {
+    "p50": 100.24,
+    "p95": 134.54,
+    "p99": 138.61
+  },
+  "step_period_ms": {
+    "p50": 73.25,
+    "p95": 75.11,
+    "p99": 76.12
+  },
+  "video_fps": 54.6,
+  "identical_to_engine_order": null
+}

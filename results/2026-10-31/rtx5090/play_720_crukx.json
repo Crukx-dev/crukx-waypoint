@@ -1,0 +1,32 @@
+{
+  "tag": "720_auto",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 1.19x stock on this GPU",
+    "linears": 120,
+    "attention": "crukx"
+  },
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "import_s": 3.1,
+  "load_ms": 12953.0,
+  "worlds": [
+    {
+      "world": "neon_alley_night",
+      "seed_ms": 176347.7,
+      "first_frame_ms": 353191.2,
+      "ready_to_first_frame_s": 545.7,
+      "steps": 240,
+      "step_ms_p50": 58.2,
+      "fps_p50_with_decode": 68.7
+    },
+    {
+      "world": "highland_castle_loch",
+      "seed_ms": 93.3,
+      "first_frame_ms": 41.3,
+      "ready_to_first_frame_s": null,
+      "steps": 240,
+      "step_ms_p50": 58.2,
+      "fps_p50_with_decode": 68.7
+    }
+  ]
+}

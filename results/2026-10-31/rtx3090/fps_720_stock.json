@@ -1,0 +1,55 @@
+{
+  "config": {
+    "quant": null,
+    "steps": 200,
+    "warmup": 20,
+    "seed": 73
+  },
+  "crukx": {},
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.11.0+cu130",
+  "frames_per_step": 4,
+  "warmup_s": 38.3,
+  "step_wall_ms": {
+    "p50": 190.034,
+    "p95": 192.891,
+    "p99": 193.122
+  },
+  "phase_ms": {
+    "prep": {
+      "p50": 0.281,
+      "p95": 0.378,
+      "p99": 0.404
+    },
+    "denoise": {
+      "p50": 147.152,
+      "p95": 149.41,
+      "p99": 149.726
+    },
+    "cache": {
+      "p50": 35.799,
+      "p95": 36.285,
+      "p99": 36.298
+    },
+    "decode": {
+      "p50": 6.776,
+      "p95": 6.834,
+      "p99": 6.844
+    }
+  },
+  "displayed_fps_p50": 21.0,
+  "throughput_fps_unsynced": 20.5,
+  "step_start_to_frame_ready_ms": {
+    "cache_first": {
+      "p50": 190.034,
+      "p95": 192.891,
+      "p99": 193.122
+    },
+    "decode_first": {
+      "p50": 154.19,
+      "p95": 156.562,
+      "p99": 156.789
+    }
+  },
+  "peak_allocated_bytes": 4911654912
+}

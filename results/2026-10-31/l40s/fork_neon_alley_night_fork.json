@@ -1,0 +1,11 @@
+{
+  "world": "neon_alley_night",
+  "gpu": "NVIDIA L40S",
+  "crukx": {
+    "version": "0.1.0",
+    "probe": "Crukx GEMM 0.83x stock on this GPU"
+  },
+  "save": "201177d4a887e629be432de919a7ef45f16caae95d98faa25306a98aaac90527",
+  "rewind_replay_exact": true,
+  "players_differ": true
+}
